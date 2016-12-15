@@ -12,7 +12,7 @@
 ![Image of List View.](img/Services-ListView.png)
 * The Service Names are links and will bring the user to a service details page.
 * The exact List View fields to be included are TBD.
-* **Implementation Details:** Reverence the Angular PatternFly Expandable List View Component.
+* **Implementation Details:** Reference the Angular PatternFly Expandable List View Component.
 
 ### List View - Expanded Row
 ![Image of Expanded List View.](img/Services-ExpandedListView.png)
