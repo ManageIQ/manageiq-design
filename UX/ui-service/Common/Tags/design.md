@@ -2,29 +2,29 @@
 * Tags are used in multiple areas throughout the UI.
 * Tags are made up of two parts, a category and value. Some categories allow for more than one value to be associated.  
 * Tags can be applied to a single item or multiple items at one time depending on the use case.
-* In all cases, the Tag selection dropdowns and the tag labels should be visually consistent.
+* In all cases, the tag selection mechanism and tag labels should be visually consistent.
 * As tags are added, they should be placed at the bottom of the list. Once saved, the tags should be reordered into alphabetic order so upon returning to the tags area, users can easily scan the list.
 
 ## Simple Tags
   * ![Image of a Simple Tag.](img/SimpleTags-01.png)  
 
 1. **Selection:**
-  * A combobox should be used for the tag selection so users can rely on the dropdown or they can type to filter the list of options.
-  * Once a category has been chosen from the first dropdown, the second dropdown should be enabled.
+* **Implementation Details:** Use the [Bootstrap Combobox](http://www.patternfly.org/pattern-library/widgets/#bootstrap-combobox) for the tag selection so users can either use the list presented or type to filter the list of options.
+  * Once a category has been chosen, the value field should be enabled.
 
 2. **Labels:**
-  * Once the user selects an option from the second dropdown, the tag label should be added below the selection boxes.
-  * The entire label should have a dark boarder with the category left aligned.
-  * The value should be displayed to the right of the category, with a lighter boarder to distinguish it.
+  * Once the user selects a value from the list, the tag label should be added below the selection boxes.
+  * The entire label should have a dark border with the category left aligned.
+  * The value should be displayed to the right of the category, with a lighter border to distinguish it.
   * Each value should have an x icon right aligned to allow for removing it.
 
   * ![Image of Label with a Single Value.](img/SingleValue.png)  
-  * If the Tag only has one value associated with the category, clicking the x on that value will remove the entire tag.  
+  * If the tag category only has one associated value, clicking the x on that value will remove the entire tag.  
 
 3. **Multi-Value Tags:**   
-  * For cases where the category allows for more than one value to be associated, the second dropdown will indicate the values that have already been applied using the multiple select dropdown widget.
-  * Implementation Details: Use the [Bootstrap Multiple Select](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) for the values dropdown.
-  * Values can be removed by either deselecting items in the dropdown or by clicking the x next to the tag.
+  * **Implementation Details:** Use the [Bootstrap Multiple Select](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) for the value selection.
+  * For categories that can have more than one value associated, the the multiple select widget will indicate values already selected.
+  * Values can be removed by either deselecting items in the list or by clicking the x next to the tag.
   * Additional values are added to the right of the initial value and each has an x icon for removal.  
 
   * ![Image of Label with Multiple Values.](img/MultiValue.png)  
