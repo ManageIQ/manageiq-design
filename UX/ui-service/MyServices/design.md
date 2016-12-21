@@ -21,16 +21,18 @@
 * Actions available for Child Services are TBD.
 * Child Services are also links and will bring the user to the child service details page.
 
-### Service - Details
+### Service Details (drilldown page)
 * When a single service is chosen, the service details page will be loaded.
 * The breadcrumbs will change to show My Services as a link back to the List View.
 * The service details will include the following view types: summary view, utilization dashboard, and topology view. The default should be the Summary View.
 
 #### Service - Summary View
 ![Image of Detail View for a Service.](img/Services-DetailView.png)
-* The bottom portion of the Summary View will have a tabbed format with a default on the Resources tab.
-* There will be a tab for Relationships, where the child services should be listed.
+* The summary view will include the properties, resources, and relationships.
 * Child Services are links and will bring the user to the child detail page.
+1. Properties:
+2. Resources:
+3. Relationships:
 
 #### Child Service - Summary View
 ![Image of Detail View for a Child Service.](img/Services-ChildDetailView.png)
