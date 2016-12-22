@@ -21,16 +21,19 @@
 * Actions available for Child Services are TBD.
 * Child Services are also links and will bring the user to the child service details page.
 
-### Service - Details
+### Service Details (drilldown page)
 * When a single service is chosen, the service details page will be loaded.
 * The breadcrumbs will change to show My Services as a link back to the List View.
 * The service details will include the following view types: summary view, utilization dashboard, and topology view. The default should be the Summary View.
 
 #### Service - Summary View
 ![Image of Detail View for a Service.](img/Services-DetailView.png)
-* The bottom portion of the Summary View will have a tabbed format with a default on the Resources tab.
-* There will be a tab for Relationships, where the child services should be listed.
-* Child Services are links and will bring the user to the child detail page.
+* The summary view will include the properties, resources, and relationships.
+1. **Properties:** General information should be listed in this section. Tags should be included at the bottom of the list. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
+2. **Resources:** Resources will be divided into sections or headings (Ansible, Compute, Network, Storage). Each section can expand and collapse, with a compact list view of resources underneath. Individual resources will be listed as links so users can drill down to a specific resource details view.
+![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
+
+3. **Relationships:** Child Services will be listed as links and will bring the user to the Child Service Summary View.
 
 #### Child Service - Summary View
 ![Image of Detail View for a Child Service.](img/Services-ChildDetailView.png)
