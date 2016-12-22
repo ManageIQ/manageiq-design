@@ -29,9 +29,11 @@
 #### Service - Summary View
 ![Image of Detail View for a Service.](img/Services-DetailView.png)
 * The summary view will include the properties, resources, and relationships.
-1. Properties: General information should be listed in this section. Tags should be included at the bottom of the list. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
-2. Resources: Resources will be divided into three headings, Compute, Network, and Storage. Each section can expand and collapse, with a compact list view of resources underneath. Actions are available on the right.
-3. Relationships: Child Services will be listed as links and will bring the user to the Child Service Summary View.
+1. **Properties:** General information should be listed in this section. Tags should be included at the bottom of the list. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
+2. **Resources:** Resources will be divided into sections or headings (Ansible, Compute, Network, Storage). Each section can expand and collapse, with a compact list view of resources underneath. Individual resources will be listed as links so users can drill down to a specific resource details view.
+![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
+
+3. **Relationships:** Child Services will be listed as links and will bring the user to the Child Service Summary View.
 
 #### Child Service - Summary View
 ![Image of Detail View for a Child Service.](img/Services-ChildDetailView.png)
