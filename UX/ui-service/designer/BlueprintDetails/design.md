@@ -15,7 +15,7 @@
   - Checking the “Same as Provision Order” box will automatically place action order items in the same order as the provision order, but leave them interactive. Dragging an action order item will uncheck the box.
 
 #### Implementation Details
-  - Action and provision order will adopt the [drag and drop](https://github.com/patternfly/patternfly-design/blob/master/pattern-library/forms-and-controls/drag-and-drop/design/design.md) PatternFly standards.
+  - Action and provision order will adopt the [Drag and Drop](https://github.com/patternfly/patternfly-design/blob/master/pattern-library/forms-and-controls/drag-and-drop/design/design.md) PatternFly standards.
 
 ### Actions and Delays Alternate
 ![Image Title/Mockup Name](img/ActionsAndDelays-02.png)
