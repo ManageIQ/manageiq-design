@@ -33,7 +33,6 @@
 ![Image of Detail View for a Service.](img/Services-GenericDetailView.png)
 * Properties will consist of general information, including tags. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
 * The next section of the summary view will vary depending on the type of service the user has selected. For legacy services there will be a resources section and for Ansible services there will be a Results section.
-* Relationships would be the final section regardless of service type. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
 
 #### Service Details - Summary View - Legacy Services
 * For legacy services, the next section under the properties will be the resources.
@@ -43,6 +42,7 @@
 * Individual resources will be listed as links so users can drill down to a specific resource details view.
 ![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
 * **Research** Determine actions available for resources. Should these be listed within the standard button groups?
+* Relationships will be the next section after Resources. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
 
 #### Service Details - Summary View - Ansible Services
 * For Ansible services, the next section under the properties will be the results and standard out.
