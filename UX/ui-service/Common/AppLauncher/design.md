@@ -3,9 +3,7 @@
 * The Application Launcher should be used when more than one interface is available.
 * This widget makes it easier for the user to switch between different user interfaces without logging out.
 * The Application Launcher should be accessible from the masthead.
-
-![Application Launcher Icon](img/ApplicationSelector-01.png)
-
+* The example below shows how a user may launch the Operations UI from within the Service UI.
 ![Application Launcher Dropdown](img/ApplicationSelector-02.png)
 
 ## Properties
