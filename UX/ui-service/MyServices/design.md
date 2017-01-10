@@ -36,7 +36,7 @@
 
 #### Service Details - Summary View - Legacy Services
 * For legacy services, the next section under the properties will be the resources.
-![Image of Detail View for a Service.](img/Services-LegacyDetailView.png)
+![Image of Detail View for a Legacy Service.](img/Services-LegacyDetailView.png)
 * Resources will be divided into sections or headings (Compute, Network, and Storage). Each section can expand and collapse, with a compact list view of resources underneath.
 
 * Individual resources will be listed as links so users can drill down to a specific resource details view.
@@ -46,7 +46,7 @@
 
 #### Service Details - Summary View - Ansible Services
 * For Ansible services, the next section under the properties will be the results and standard out.
-![Image of Detail View for a Service.](img/Services-AnsibleDetailView.png)
+![Image of Detail View for an Ansible Service.](img/Services-AnsibleDetailView.png)
 * The Results section will have a basic set of information regarding the service, followed by a compact list view of plays.
 * The Standard Out section will include a log of the most recent information available from the time the page was loaded. If the play is still in progress, a status will appear on the right, along with a button to "Watch Live" details of the play. This live version will be displayed in a modal.
 
@@ -55,7 +55,10 @@
 * The breadcrumbs will change to show My Services and the Parent Service as links.
 * The service details page will be in the same format as the Parent Service Detail page.
 
-
+### Service Details - Dashboard View
+* The dashboard view will display all utilization properties at the top of the page, followed by a utilization trend card below.
+* The trend card will include donut charts to display the CPU, Memory, and Storage data.
+![Image of Dashboard View for a Service.](img/Services-DashboardDetailView.png)
 
 ## Customer Feedback Received
   - Overview of customer feedback received
