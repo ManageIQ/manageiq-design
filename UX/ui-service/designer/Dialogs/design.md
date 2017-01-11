@@ -12,7 +12,7 @@
 - When the user creates a new dialog, they are brought to this screen with a single tab and section already populated.
 
 #### Implementation Details
-- The Dialog Editor should follow the same conventions as the blueprint editor when generating names for new dialogs and dialog elements. (e.g. Untitled Dialog")
+- The Dialog Editor should follow the same conventions as the blueprint editor when generating names for new dialogs and dialog elements. (e.g. "Untitled Dialog")
 
 ### Placing a dialog element
 ![Placing an element](img/DialogEditor-02.png)
