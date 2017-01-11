@@ -14,7 +14,7 @@
 * The Service Names are links and will bring the user to a service details page.
 * Resources will be shown for legacy services when a VM, Network, or Storage resource exists. For Ansible services, the playbook name should appear for this column instead.
 * **Implementation Details:** Reference the Angular PatternFly Expandable List View Component.
-* **Research** Determine if the date should be called "Created" or "Ordered" in the list view.
+* **Research:** Determine if the date should be called "Created" or "Ordered" in the list view.
 
 ## List View - Expanded Row
 ![Image of Expanded List View.](img/Services-ExpandedListView.png)
@@ -41,7 +41,7 @@
 
 * Individual resources will be listed as links so users can drill down to a specific resource details view.
 ![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
-* **Research** Determine actions available for resources. Should these be listed within the standard button groups?
+* **Research:** Determine actions available for resources. Should these be listed within the standard button groups?
 * Relationships will be the next section after Resources. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
 
 #### Service Details - Summary View - Ansible Services
@@ -56,8 +56,7 @@
 * The service details page will be in the same format as the Parent Service Detail page.
 
 ### Service Details - Dashboard View
-* The dashboard view will display all utilization properties at the top of the page, followed by a utilization trend card below.
-* The trend card will include donut charts to display the CPU, Memory, and Storage data.
+* The dashboard view will display a utilization trend card with the CPU, Memory, and Storage data.
 ![Image of Dashboard View for a Service.](img/Services-DashboardDetailView.png)
 
 ## Customer Feedback Received
