@@ -38,6 +38,18 @@
 - Undo and Redo features would be required for this to be effective
 - Checking the "Preview Dialog" option would hide the toolbox and properties panel and display the dialog as it would appear when it is being used.
 
+
+### Additional Functionality
+![Adding help text to an element](img/DialogEditor-07.png)
+- Filling in the Help Text field on an element will provide the consumer with information about the purpose of the element and how it should be populated.
+
+![An element with help text](img/DialogEditor-08.png)
+- If an element has a populated Help Text field (not undefined) the rendered element in the dialog will be accompanied by a [Field Level Help](https://www.patternfly.org/pattern-library/forms-and-controls/field-level-help/#_)icon.
+- Elements with undefined Help Text will not have this icon
+
+![Enabling searchability in a dropdown](img/DialogEditor-09.png)
+- Dropdown elements will have an additional parameter that if turned on, will enable the [search capabilities](https://www.patternfly.org/pattern-library/widgets/#bootstrap-select) of the dropdown
+
 ## Customer Feedback
 
 ### Customer Feedback Received
