@@ -14,13 +14,11 @@
 * The Service Names are links and will bring the user to a service details page.
 * Resources will be shown for legacy services when a VM, Network, or Storage resource exists. For Ansible services, the playbook name should appear for this column instead.
 * **Implementation Details:** Reference the Angular PatternFly Expandable List View Component.
-* **Research:** Determine if the date should be called "Created" or "Ordered" in the list view.
 
 ## List View - Expanded Row
 ![Image of Expanded List View.](img/Services-ExpandedListView.png)
 * Clicking anywhere on the row (aside from other links or buttons) will expand the row
 * Child Services are listed in the expanded portion. If no Child Services exist for a particular service, expand should not work and the caret icon should be hidden for that row.
-* Actions available for Child Services are TBD.
 * Child Services are also links and will bring the user to the child service details page.
 
 ## Service Details (drilldown page)
@@ -41,13 +39,15 @@
 
 * Individual resources will be listed as links so users can drill down to a specific resource details view.
 ![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
-* **Research:** Determine actions available for resources. Should these be listed within the standard button groups?
 * Relationships will be the next section after Resources. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
 
 #### Service Details - Summary View - Ansible Services
 * For Ansible services, the next section under the properties will be the results and standard out.
 ![Image of Detail View for an Ansible Service.](img/Services-AnsibleDetailView.png)
-* The Results section will have a basic set of information regarding the service, followed by a compact list view of plays.
+* The Results section will have a basic set of information regarding the service, including a credentials section for machine credentials, network credentials, cloud credentials etc.
+* This basic set of information will include additional fields for Ansible Tower Services
+![Image of Detail View for an Ansible Tower Service.](img/Services-AnsibleTowerDetailView.png)
+* The basic information is followed by a compact list view of plays from the most recent play.
 * The Standard Out section will include a log of the most recent information available from the time the page was loaded. If the play is still in progress, a status will appear on the right, along with a button to "Watch Live" details of the play. This live version will be displayed in a modal.
 
 #### Child Service - Summary View
