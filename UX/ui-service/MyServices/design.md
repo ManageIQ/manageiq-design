@@ -12,7 +12,7 @@
 * Bulk actions can be accessed through the button groups at the top of the list.
 ![Image of List View.](img/Services-ListView.png)
 * The Service Names are links and will bring the user to a service details page.
-* Resources will be shown for legacy services when a VM, Network, or Storage resource exists. For Ansible services, the playbook name should appear for this column instead.
+* Resources will be shown for legacy services when a VM, Network, or Storage resource exists. For Ansible services, the playbook name should appear for this column instead and for Ansible Tower services, the template name should appear here.
 * **Implementation Details:** Reference the Angular PatternFly Expandable List View Component.
 
 ## List View - Expanded Row
