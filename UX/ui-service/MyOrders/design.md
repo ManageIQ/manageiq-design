@@ -25,13 +25,15 @@
 ### View Orders
 ![Image Title/Mockup Name](img/Order_03.png)
 - The End User sees only orders that they have placed
+- They can check the status of their currently pending orders and view all past orders and their component requests
 
 ### View Requests
 ![Image Title/Mockup Name](img/Order_04.png)
-- They can check the status of their currently pending orders and view all past orders and their component requests
+- Users can cancel orders, or edit and remove component requests
 
-### View Request
+### Edit a request
 ![Image Title/Mockup Name](img/Order_05.png)
+- Clicking the edit button takes the user to a view of the request with editable dialog fields.
 
 ## Customer Feedback
 
