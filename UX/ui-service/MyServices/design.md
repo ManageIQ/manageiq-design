@@ -10,6 +10,8 @@
 ## List View
 * A List View is the default view for My Services and it will not show all fields in this view.
 * Bulk actions can be accessed through the button groups at the top of the list.
+* Custom button groups will be added to the left of the standard button groups. To conserve space, the button group labels are removed in this view.
+* All actions will also be available in the kebab menu for acting on a single service.
 ![Image of List View.](img/Services-ListView.png)
 * The Service Names are links and will bring the user to a service details page.
 * Resources will be shown for legacy services when a VM, Network, or Storage resource exists. For Ansible services, the playbook name should appear for this column instead and for Ansible Tower services, the template name should appear here.
@@ -27,6 +29,8 @@
 * The service details will include the following view types: summary view, utilization dashboard, and topology view. The default should be the Summary View.
 
 ### Service Details - Summary View
+* Actions can be accessed through the button groups at the top of the page.
+* Custom button groups will be added to the left of the standard button groups. Button labels should be included in this view.
 * The properties section at the top of the summary view will be consistent for ALL services.
 ![Image of Detail View for a Service.](img/Services-GenericDetailView.png)
 * Properties will consist of general information, including tags. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
@@ -38,6 +42,7 @@
 * Resources will be divided into sections or headings (Compute, Network, and Storage). Each section can expand and collapse, with a compact list view of resources underneath.
 
 * Individual resources will be listed as links so users can drill down to a specific resource details view.
+* The resources list view will have access control actions available for launching a console and all other resource actions will be listed under the kebab menu.
 ![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
 * Relationships will be the next section after Resources. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
 
