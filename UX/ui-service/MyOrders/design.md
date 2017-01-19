@@ -14,18 +14,20 @@
 
 ### Approve Order
 ![Image Title/Mockup Name](img/Order_02.png)
-- The Administrator can check and approve an order or its component pieces
+- The Administrator can check and approve the requests in an order.
 
 
 #### Implementation Details
   - The orders list should use the [List View with simple expansion](https://www.patternfly.org/pattern-library/content-views/list-view/#/api#expanding-rows) pattern
+  - Clicking the checkbox on an order should expand the order and select all the requests in the order.
+  - The box on an order should be checked if and only if all the requests in the order are checked.
 
 ## End user
 
 ### View Orders
 ![Image Title/Mockup Name](img/Order_03.png)
 - The End User sees only orders that they have placed
-- They can check the status of their currently pending orders and view all past orders and their component requests
+- They can check the status of their currently pending requests and view all past orders and their component requests
 
 ### View Requests
 ![Image Title/Mockup Name](img/Order_04.png)
