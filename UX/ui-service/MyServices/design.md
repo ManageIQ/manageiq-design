@@ -29,36 +29,44 @@
 * The service details will include the following view types: summary view, utilization dashboard, and topology view. The default should be the Summary View.
 
 ### Service Details - Summary View
-* Actions can be accessed through the button groups at the top of the page.
-* Custom button groups will be added to the left of the standard button groups. Button labels should be included in this view.
-* The properties section at the top of the summary view will be consistent for ALL services.
-![Image of Detail View for a Service.](img/Services-GenericDetailView.png)
-* Properties will consist of general information, including tags. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
-* The next section of the summary view will vary depending on the type of service the user has selected. For legacy services there will be a resources section and for Ansible services there will be a Results section.
+* Actions can be accessed through the button groups at the top of the page. Custom button groups will be added to the left of the standard button groups. Button labels should be included in this view.
+* The following sections will be displayed on the summary view page:
+  1. **Properties:**
+    ![Image of Detail View for a Service.](img/Services-GenericDetailView.png)  
 
-#### Service Details - Summary View - Legacy Services
-* For legacy services, the next section under the properties will be the resources.
-![Image of Detail View for a Legacy Service.](img/Services-LegacyDetailView.png)
-* Resources will be divided into sections or headings (Compute, Network, and Storage). Each section can expand and collapse, with a compact list view of resources underneath.
+    * The properties section at the top of the summary view will be consistent for ALL services.
+    * Properties will consist of general information, including tags. Utilization properties will be excluded from this section and will show up in the dashboard view instead.
 
-* Individual resources will be listed as links so users can drill down to a specific resource details view.
-* The resources list view will have access control actions available for launching a console and all other resource actions will be listed under the kebab menu.
-![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
-* Relationships will be the next section after Resources. Child Services will be listed as links here and will bring the user to the Child Service Summary View.
+  2. **Resources** (optional):
+    ![Image of Detail View for a Legacy Service.](img/Services-LegacyDetailView.png)
 
-#### Service Details - Summary View - Ansible Services
-* For Ansible services, the next section under the properties will be the results and standard out.
-![Image of Detail View for an Ansible Service.](img/Services-AnsibleDetailView.png)
-* The Results section will have a basic set of information regarding the service, including a credentials section for machine credentials, network credentials, cloud credentials etc.
-* This basic set of information will include additional fields for Ansible Tower Services
-![Image of Detail View for an Ansible Tower Service.](img/Services-AnsibleTowerDetailView.png)
-* The basic information is followed by a compact list view of plays from the most recent play.
-* The Standard Out section will include a log of the most recent information available from the time the page was loaded. If the play is still in progress, a status will appear on the right, along with a button to "Watch Live" details of the play. This live version will be displayed in a modal.
+    * Resources will be divided into sections or headings (Compute, Network, and Storage). Each section can expand and collapse, with a compact list view of resources underneath.
+    * If no resources exist for a particular service, this section should be **hidden.**
+    * The resources list view will have access control actions available for launching a console and all other resource actions will be listed under the kebab menu.
+    * Individual resources will be listed as links so users can drill down to a specific resource details view.
 
-#### Child Service - Summary View
-![Image of Detail View for a Child Service.](img/Services-ChildDetailView.png)
-* The breadcrumbs will change to show My Services and the Parent Service as links.
-* The service details page will be in the same format as the Parent Service Detail page.
+    ![Image of Detail View for a Resource.](img/Services-ResourceDetails.png)
+
+  3. **Results** (optional):
+    * This section is only displayed for Ansible and Ansible Tower services. For legacy services, this section should be hidden.
+
+    ![Image of Detail View for an Ansible Service.](img/Services-AnsibleDetailView.png)
+
+    * The Results section will have a basic set of information regarding the service, including a credentials section for machine credentials, network credentials, cloud credentials etc.
+    * This basic set of information will include additional fields for Ansible Tower Services
+
+    ![Image of Detail View for an Ansible Tower Service.](img/Services-AnsibleTowerDetailView.png)
+
+    * The basic information is followed by a compact list view of plays from the most recent play.
+    * The Standard Out section will include a log of the most recent information available from the time the page was loaded. If the play is still in progress, a status will appear on the right, along with a button to "Watch Live" details of the play. This live version will be displayed in a modal.  
+  4. **Relationships:**
+    * Child Services will be listed as links here and will bring the user to the Child Service Summary View.
+
+    ![Image of Detail View for a Child Service.](img/Services-ChildDetailView.png)
+
+    * The breadcrumbs will change to show My Services and the Parent Service as links.
+    * The service details page will be in the same format as the Parent Service Detail page.
+
 
 ### Service Details - Dashboard View
 * The dashboard view will display a utilization trend card with the CPU, Memory, and Storage data.
