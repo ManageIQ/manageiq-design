@@ -21,7 +21,7 @@ Access documentation for specific sections by clicking on the links below
 
 ### Application Framework
 - [Masthead](https://manageiq.github.io/manageiq-design/UX/ui-service/Framework/masthead)
-- [Masthead](https://manageiq.github.io/manageiq-design/UX/ui-service/Framework/masthead)
+- [Navigation](https://manageiq.github.io/manageiq-design/UX/ui-service/Framework/navigation)
 
 ## Service Designer Documentation
 
