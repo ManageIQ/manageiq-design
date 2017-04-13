@@ -2,10 +2,10 @@
 * Action buttons are found across a bar towards the top of most pages.
 * Action buttons may be system generated (default) or may be customized by the user.
 * In cases where both system generated and customized buttons exist, they should be presented in the following order from left to right:
-  - Default single button
-  - Default button group
   - Custom single button
   - Custom button group
+  - Default single button
+  - Default button group
 
 ![Button Layout](img/Button-Layout-1A.png)
 * Button bars should span across the entire page and should sit underneath the breadcrumbs bar (if it exists).
