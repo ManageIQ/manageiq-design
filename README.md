@@ -7,6 +7,7 @@ Access documentation for specific sections by clicking on the links below
   - [App Launcher](https://manageiq.github.io/manageiq-design/UX/common/AppLauncher/design)
   - [Hybrid Dashboards](https://manageiq.github.io/manageiq-design/UX/common/HybridDashboards/design)
   - [Tags](https://manageiq.github.io/manageiq-design/UX/common/Tags/design)
+  - [Command Buttons](https://manageiq.github.io/manageiq-design/UX/common/Button-Layout/design)
 
 ## Operations UI
   - Automation
