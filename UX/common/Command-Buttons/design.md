@@ -1,4 +1,4 @@
-# Button Layout
+# Command Buttons
 * Action buttons are found across a bar towards the top of most pages.
 * Action buttons may be system generated (default) or may be customized by the user.
 * In cases where both system generated and customized buttons exist, they should be presented in the following order from left to right:
