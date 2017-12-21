@@ -33,7 +33,7 @@ Access documentation for specific sections by clicking on the links below
 
 ## Conceptual Designs
 
-  - [(WIP) RHV Provisioning Wizard](http://talk.manageiq.org/t/ux-design-rhv-provisioning/3079)
+  - [(W.I.P.) oVirt/RHV Provisioning Wizard](http://talk.manageiq.org/t/ux-design-rhv-provisioning/3079)
 
 
 **Note:** This link will navigate to an external site where comments can be captured.
